@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mostrar valores</title>
+</head>
+<body>
+<h1>Mostrar valores</h1>
+<p>Tu nombre es: {{nombre_llave}}</p>
+<div>
+
+{#
+    <a href="/">Regresar al inicio</a>
+    <a href="{{url_for('inicio')}}">Regresar al inicio</a>
+#}
+
+    <a href="{{url_for('mostrar_edad',edad=12)}}">Mostrar edad</a>
+
+</div>
+</body>
+</html>
